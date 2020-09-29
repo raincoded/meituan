@@ -1,0 +1,37 @@
+.detail-area {
+  width: 100%;
+  a {
+    font-size: 12px;
+    color: #999;
+    font-weight: 400;
+  }
+  .detail-title {
+    margin-top: 24px;
+    height: 22px;
+    line-height: 22px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #e5e5e5;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    h2 > a {
+      font-size: 16px;
+      font-weight: 500;
+      color: #222;
+    }
+  }
+  .detail-content {
+    a {
+      color: #999;
+      font-size: 12px;
+      line-height: 15px;
+      display: inline-block;
+      margin-right: 16px;
+      margin-top: 10px;
+      cursor: pointer;
+    }
+    a:hover {
+      color: #fe8c00;
+    }
+  }
+}
